@@ -19,11 +19,7 @@ namespace FilterSort
             {
                 return new StringFilter().Filter(input);
             }
-            else
-            {
-                return "You didn't choose the method well!";
-            }
-
+            else return chosenMethod;
         }
     }
 }

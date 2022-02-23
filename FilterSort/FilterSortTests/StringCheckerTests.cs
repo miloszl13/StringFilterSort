@@ -37,7 +37,7 @@ namespace FilterSortTests
         {
             //Arrange
             var userInput = "eeexxammplee";
-            var choosenMethod = "something";
+            var choosenMethod = "You didn't choose the method well!";
             var expectedResult = "You didn't choose the method well!";
             //Act
             var actualResult = new StringChecker().GetResult(choosenMethod, userInput);

@@ -18,6 +18,10 @@ namespace FilterSort
         {
             Console.WriteLine("choose a method (A/B) : ");
             string chosenMethod = Console.ReadLine().ToLower();
+            if (chosenMethod != "a" && chosenMethod != "b")
+            {
+                chosenMethod="You didn't choose the method well!";
+            }
             return chosenMethod;
         }
     }
